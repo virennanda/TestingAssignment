@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\viren.bhanushali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\obj\\",
+      "outputPath": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\viren.bhanushali\\AppData\\Roaming\\NuGet\\NuGet.Config",

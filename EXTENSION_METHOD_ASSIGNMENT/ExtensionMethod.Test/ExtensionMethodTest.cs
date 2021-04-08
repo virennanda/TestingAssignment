@@ -11,61 +11,116 @@ namespace ExtensionMethod.Test
         [Fact]
         public void Test_ChangeCase()
         {
-            // Arrange
-            var inputString = "VIRen";
-            var outputString = "viren";
-            // Act
-            var newString = inputString.ChangeCase();
+
+            // 1.Return a copy of given input string with uppercase characters converted to 
+            // lowercase and vice versa.
+            // Arrange 2 string Inputs
+            var lowerCaseString = "this is a lower case string";
+            var upperCaseString = "THIS IS A UPPER CASE STRING";
+
+            //expected Outputs
+            var expectedOutputForLowerCaseString = "THIS IS A LOWER CASE STRING";
+            var expectedOutputForUpperCaseString = "this is a upper case string";
+
+
+
+            // Act 
+            //store the results
+            var actualResultFromLowerCaseString = lowerCaseString.ChangeCase();
+            var actualResultFromUpperCaseString = upperCaseString.ChangeCase();
+            
+            
             // Assert
-            Assert.Equal(newString, outputString);
+            //verify the results from our expectation
+            Assert.Equal(actualResultFromLowerCaseString, expectedOutputForLowerCaseString);
+            Assert.Equal(actualResultFromUpperCaseString, expectedOutputForUpperCaseString);
         }
         [Fact]
         public void Test_ChangeToTitleCase()
         {
-            // Arrange
-            var inputString = "viren is in MCA";
-            var outputString = "Viren Is In MCA";
+            // 3.Converts the specified string to title case (except for words that are 
+            //entirely in uppercase, which are considered to be acronyms).
+
+            // Arrange input string with acronym 
+            var titleCaseInput = "lets finish work ASAP";
+
+            // expected output
+            var expectedTitleCaseOutput = "Lets Finish Work ASAP";
+
             // Act
-            var newString = inputString.toTitleCase();
+            // store outputs
+            var actualTitleCaseOutput = titleCaseInput.toTitleCase();
+
             // Assert
-            Assert.Equal(newString, outputString);
+            // verify the results from expectation
+            Assert.Equal(actualTitleCaseOutput, expectedTitleCaseOutput);
         }
         [Fact]
         public void Test_IsLowerCaseString()
         {
+            // 4.Find if all the characters from given input string are in lower case or not
+
             // Arrange
-            var inputString = "virennanda";
+            // inputs
+            var lowerCaseString = "this is a lower case string";
+            
             // Act
-            var newString = inputString.isLowerCase();
+            //store the output from method
+            var actualOutputFromLowerCaseString = lowerCaseString.isLowerCase();
+
+
             // Assert
-            Assert.True(newString);
+            // verify expectation 
+            Assert.True(actualOutputFromLowerCaseString);
         }
         [Fact]
         public void Test_IsUpperCaseString()
         {
+            // 6.    Find if all the characters from given input string are in upper case or not
             // Arrange
-            var inputString = "VIREN";
+            //inputs
+            var upperCaseString = "AN APPLE A DAY KEEPS DOCTOR AWAY";
+            var lowerCaseString= "an apple a day keeps doctor away";
+            
             // Act
-            var newString = inputString.IsUpperCaseString();
+            var actualOutputForUpperCaseString = upperCaseString.IsUpperCaseString();
+            var actualOutputFromLowerCaseString = lowerCaseString.IsUpperCaseString();
+            
             // Assert
-            Assert.True(newString);
+            // verify output from expectation
+
+            Assert.True(actualOutputForUpperCaseString);
+            Assert.False(actualOutputFromLowerCaseString);
         }
         [Fact]
         public void Test_DoCapitalize()
         {
+            // 5.Return a capitalized version of given input string i.e. make the first
+            // character have upper case and the rest lower case.
             // Arrange
-            var inputString = "viren";
-            var outputString = "VIREN";
-            // Act
-            var newString = inputString.doCapitalize();
+            // inputs
+            var sampleInputString = "this is a sample strinG";
+            
+            // Expected Output
+            var expectedOutputFromSampleString = "This Is A Sample String";
+
+            // Act 
+            // store actual results 
+            var actualOutputFromSampleString = sampleInputString.doCapitalize();
+
+
             // Assert
-            Assert.Equal(newString, outputString);
+            // verify expectation from actual output
+            Assert.Equal(expectedOutputFromSampleString, actualOutputFromSampleString);
         }
         [Theory]
         [InlineData("56", true)]
         [InlineData("12d", false)]
         public void Test_IsValidNumericValue(string inputString, bool result)
         {
+            // 7.Function to identify whether given input string can be converted to a valid 
+            //numeric value or not.
+
             // Arrange
 
             // Act
@@ -76,35 +131,51 @@ namespace ExtensionMethod.Test
         [Fact]
         public void Test_RemoveLastCharacter()
         {
+            // 8.Function to remove the last character from given the string
+
             // Arrange
-            var inputString = "Viren";
-            var outputString = "Vire";
+            var sampleInputString = "this is a sample strinG";
+            // expected outputs
+            var expectedOutputFromSampleInputString = "this is a sample strin";
+
             // Act
-            var newString = inputString.removeLastCharacter();
+            var actualOutputFromSampleInputString= sampleInputString.removeLastCharacter();
+            
+            
             // Assert
-            Assert.Equal(newString, outputString);
+            Assert.Equal(expectedOutputFromSampleInputString, actualOutputFromSampleInputString);
         }
         [Fact]
         public void Test_WordCount()
         {
+            // 9.Get the word count from an input string.
             // Arrange
-            var inputString = "Viren Nanda";
-            var count = 2;
+            var sampleString = "this is a sample strinG";
+
+            // expected output from sample string
+            var expectedCountFromSampleString = 5;
+
             // Act
-            var newString = inputString.wordCount();
+            var actualOutputForSampleString= sampleString.wordCount();
             // Assert
-            Assert.Equal(newString, count);
+            Assert.Equal(actualOutputForSampleString    , expectedCountFromSampleString);
         }
         [Fact]
         public void Test_StringToInteger()
         {
+            // 10.Convert an input string to integer.
+
             // Arrange
-            var inputString = "78765";
-            var output = 123;
+            // inputs
+            var inputString = "123";
+            
+            //outputs
+            var expectedOutputFromInputString = 123;
+
             // Act
-            var newString = inputString.stringToInteger();
+            var actualOutputFromInputString = inputString.stringToInteger();
             // Assert
-            Assert.Equal(newString, output);
+            Assert.Equal(actualOutputFromInputString, expectedOutputFromInputString);
         }
     }
 }

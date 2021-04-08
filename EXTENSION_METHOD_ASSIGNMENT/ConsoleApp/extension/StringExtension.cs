@@ -9,7 +9,13 @@ namespace ConsoleApp.extension
     {
         public static string ChangeCase(this string inputString)
         {
-            return Char.IsLower(inputString[0]) ? inputString.ToUpper() : inputString.ToLower();
+            var brokenLetters = inputString.ToCharArray();
+            var finalString = "";
+            for (int i = 0; i < brokenLetters.Length; i++)
+            {
+                finalString+= Char.IsUpper(brokenLetters[i]) ? Char.ToLower(brokenLetters[i]) : Char.ToUpper(brokenLetters[i]);
+            }
+            return finalString;
         }
         public static string toTitleCase(this string inputString)
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj": {}
+    "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\viren.bhanushali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\viren.bhanushali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj": {
+    "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj",
+        "projectUniqueName": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj",
         "projectName": "ExtensionMethod.Test",
-        "projectPath": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj",
+        "projectPath": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\ExtensionMethod.Test.csproj",
         "packagesPath": "C:\\Users\\viren.bhanushali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\obj\\",
+        "outputPath": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ExtensionMethod.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\viren.bhanushali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj": {
-                "projectPath": "C:\\Users\\viren.bhanushali\\source\\repos\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj"
+              "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj": {
+                "projectPath": "D:\\Assignment\\Testing\\EXTENSION_METHOD_ASSIGNMENT\\ConsoleApp\\ConsoleApp.csproj"
               }
             }
           }
